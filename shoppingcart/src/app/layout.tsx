@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 
 import "./globals.css";
@@ -10,16 +9,13 @@ import Template from "@/components/Template";
 
 import { Open_Sans } from 'next/font/google'
 
-
+//👇 Configure our font object
 const openSans = Open_Sans({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-opensans',
 })
 
-type LayoutProps = {
-  children: React.ReactNode
-}
 
 
 export const metadata: Metadata = {
@@ -29,8 +25,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
+}:{ 
+  children: React.ReactNode;
 }) {
   
   return (
@@ -42,3 +38,4 @@ export default function RootLayout({
     </html>
   );
 }
+
