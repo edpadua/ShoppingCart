@@ -4,6 +4,8 @@ import React from 'react'
 
 import Navbar from '../Navbar';
 
+import Footer from '../Footer';
+
 import SideBarCart from './../../SidebarCart/index';
 
 import { useEffect, useState } from "react";
@@ -37,9 +39,10 @@ function Template() {
             <Cart/>
         </CartSideBar>
       
-        <main className='px-16'>
+        <main className='px-16 min-h-screen pb-16'>
 				{isLoading ? <div className='text-center text-lg'>Loading...</div> : <ProductList products={products} />}
-		</main>
+		    </main>
+        <Footer/>
     </>
   )
 }

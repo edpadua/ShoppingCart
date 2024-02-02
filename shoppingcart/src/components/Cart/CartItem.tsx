@@ -34,10 +34,10 @@ export default function CartItem({ product }: Props) {
 			<div>
 				<button
 					title='Remove Item'
-					className='text-red-500 hover:text-red-600 ml-4'
+					className='text-gray-600 hover:text-gray-500 ml-4'
 					onClick={() => removeFromCart(product)}
 				>
-					<FaTrashAlt size={18} />
+					<FaTrashAlt size={15} />
 				</button>
 			</div>
 		</li>
