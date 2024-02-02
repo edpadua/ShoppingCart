@@ -1,6 +1,6 @@
 
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { products } from "@/Data/dbtest";
@@ -8,7 +8,16 @@ import { products } from "@/Data/dbtest";
 
 import Template from "@/components/Template";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Open_Sans } from 'next/font/google'
+
+//👇 Configure our font object
+const openSans = Open_Sans({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-opensans',
+})
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -22,7 +31,7 @@ export default function RootLayout({
 }>) {
   
   return (
-    <html lang="en">
+    <html   className={`${openSans.variable}  font-sans`} lang="en">
       <body>
         <Template/>
         {children}
