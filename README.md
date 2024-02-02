@@ -1,7 +1,7 @@
 # Shopping Cart
 
 <h1>
-   <img src="https://github.com/edpadua/CountriesList/blob/main/countrieslist/public/countrieslist-capture.gif">
+   <img src="https://github.com/edpadua/ShoppingCart/blob/main/shoppingcart/public/ShoppingCart-Capture.gif">
 </h1>
 
 # Summary
