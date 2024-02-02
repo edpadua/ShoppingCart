@@ -1,7 +1,7 @@
 # Shopping Cart
 
 <h1>
-    <a href="https://countries-list-drab.vercel.app/"><img src="https://github.com/edpadua/CountriesList/blob/main/countrieslist/public/countrieslist-capture.gif"></a>
+   <img src="https://github.com/edpadua/CountriesList/blob/main/countrieslist/public/countrieslist-capture.gif">
 </h1>
 
 # Summary
@@ -20,13 +20,7 @@ The main objective of this project is to use the Zustand state management librar
 
 ### Screeshot - Countries List
 
-![image](https://github.com/edpadua/CountriesList/assets/4975360/d42c27d4-966a-4fcc-a7c7-df976b322595)
-
-
-### Screeshot - Country Page
-
-![image](https://github.com/edpadua/CountriesList/assets/4975360/524cc87a-ab6e-4fd5-bb07-2f0f9b1e8320)
-
+![image](https://github.com/edpadua/ShoppingCart/assets/4975360/619250c5-c672-4a8b-ad69-2113f36352ec)
 
 
 ### Technologies
@@ -50,10 +44,6 @@ npm i
 npm run dev
 ```
 
-## Demo
-
-[Countries List](https://countries-list-drab.vercel.app/)
-
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -62,3 +52,4 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Eduardo de Pádua: ed.padua@gmail.com
+
