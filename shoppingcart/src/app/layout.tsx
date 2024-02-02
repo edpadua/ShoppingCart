@@ -10,7 +10,7 @@ import Template from "@/components/Template";
 
 import { Open_Sans } from 'next/font/google'
 
-//👇 Configure our font object
+
 const openSans = Open_Sans({
   subsets: ['latin'],
   display: 'swap',
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   
   return (
     <html   className={`${openSans.variable}  font-sans`} lang="en">
