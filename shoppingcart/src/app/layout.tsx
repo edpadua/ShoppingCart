@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import { products } from "@/Data/dbtest";
+
 
 
 import Template from "@/components/Template";
@@ -25,10 +24,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}:{ 
-  children: React.ReactNode;
-  session: never;
-}) {
+}:
+  Readonly<{
+    children: React.ReactNode;
+  }>
+) {
   
   return (
     <html   className={`${openSans.variable}  font-sans`} lang="en">
